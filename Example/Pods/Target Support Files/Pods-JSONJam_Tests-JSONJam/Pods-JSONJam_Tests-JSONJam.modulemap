@@ -1,0 +1,6 @@
+framework module JSONJam {
+  umbrella header "Pods-JSONJam_Tests-JSONJam-umbrella.h"
+
+  export *
+  module * { export * }
+}

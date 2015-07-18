@@ -1,0 +1,14 @@
+PODS:
+  - JSONJam (0.1.0)
+
+DEPENDENCIES:
+  - JSONJam (from `../`)
+
+EXTERNAL SOURCES:
+  JSONJam:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSONJam: b523d7eb118deedb84e8e3795e69e2aff8b03ee3
+
+COCOAPODS: 0.37.2
