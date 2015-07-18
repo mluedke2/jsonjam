@@ -1,5 +1,7 @@
 PODS:
-  - JSONJam (0.1.0)
+  - JSONHelper (1.6.0)
+  - JSONJam (1.0.0):
+    - JSONHelper (~> 1.6.0)
 
 DEPENDENCIES:
   - JSONJam (from `../`)
@@ -9,6 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JSONJam: b523d7eb118deedb84e8e3795e69e2aff8b03ee3
+  JSONHelper: 41af4b93519cc4fd75d81952628e0006c61d12c7
+  JSONJam: f091cc8bf48bbf7daf3081eaca555a5238c385a7
 
 COCOAPODS: 0.37.2

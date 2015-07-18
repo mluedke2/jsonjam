@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8B03A898218B676A73699680"
+               BlueprintIdentifier = "457DB575B6103DEF9A7FC8FB"
                BuildableName = "JSONJam.bundle"
                BlueprintName = "Pods-JSONJam_Tests-JSONJam-JSONJam"
                ReferencedContainer = "container:Pods.xcodeproj">

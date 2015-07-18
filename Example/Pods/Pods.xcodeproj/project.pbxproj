@@ -7,394 +7,518 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		023F47F3C573C10EFC99F943 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD87376D744B54AC18482CD /* ReplaceMe.swift */; };
-		1A85F2E72CCA58F840A672D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB9009D33056F00965ACDD7 /* Foundation.framework */; };
-		3961A50FB1AF350E7AFECCC6 /* Pods-JSONJam_Tests-JSONJam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C19B101D48083C955C3834DC /* Pods-JSONJam_Tests-JSONJam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44FAC85A5AC529ABBE2183DE /* JSONJam.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CBC0E3D13E2F997B86B1AE83 /* JSONJam.bundle */; };
-		45918A5A76AF90F47D95736A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD87376D744B54AC18482CD /* ReplaceMe.swift */; };
-		553F5A3157F10C121FF05C06 /* Pods-JSONJam_Example-JSONJam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03820D56D9B11CD4DD17B83E /* Pods-JSONJam_Example-JSONJam-dummy.m */; };
-		6E243E1093FB92D3B1EC1119 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB9009D33056F00965ACDD7 /* Foundation.framework */; };
-		6F2DC92DB48E3259DA2C8A22 /* Pods-JSONJam_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D1B8DAE647CE17F55195977 /* Pods-JSONJam_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FFB0819713FA6D01B210171 /* Pods-JSONJam_Example-JSONJam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A66769DAC8EB8B8B575320 /* Pods-JSONJam_Example-JSONJam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D707FF1B8E2218E202B09E7 /* Pods-JSONJam_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 885DC05605826958D04A740B /* Pods-JSONJam_Example-dummy.m */; };
-		92D22312C4AE004208260B93 /* Pods-JSONJam_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF0900938F5EF729B0F7622A /* Pods-JSONJam_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1F3F67FC1C17DE2873A99BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB9009D33056F00965ACDD7 /* Foundation.framework */; };
-		C2659F3E84D6C138E3E2D790 /* Pods-JSONJam_Tests-JSONJam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5222C686777EF3EA856E89D4 /* Pods-JSONJam_Tests-JSONJam-dummy.m */; };
-		F0F584CBEC30479F1BD618F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB9009D33056F00965ACDD7 /* Foundation.framework */; };
-		F6EE27BE83831C938733F254 /* JSONJam.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ED11944F51937EBE7C099EF7 /* JSONJam.bundle */; };
-		FCC8776A28C72F4B91567526 /* Pods-JSONJam_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 754930E14998865CA1D87C8A /* Pods-JSONJam_Tests-dummy.m */; };
+		0B15EE4A877F17011FF19D0B /* Pods-JSONJam_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 694FAE72BCFA568B9CC76446 /* Pods-JSONJam_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1638C235175D542A2B12C7C5 /* JSONJam.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB5320C6ADFC1996A13AAA66 /* JSONJam.bundle */; };
+		2655C1AE53AB6CCC789084A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E42985C5170A6F575F5E8D0 /* Foundation.framework */; };
+		37B423161DAC4C0B86C44102 /* Pods-JSONJam_Tests-JSONJam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E002719AC853887982143A7 /* Pods-JSONJam_Tests-JSONJam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46349AEC9CF616080D239C7D /* JSONHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E1196D71A3E38867F88A0E /* JSONHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50F71E82FDEFCEC67664E91C /* Pods-JSONJam_Example-JSONJam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62173F9B7696B07FF9A75BE1 /* Pods-JSONJam_Example-JSONJam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C18289C120E06A3E7668CDA /* Pods-JSONJam_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08999A6A72209D8DC97611FD /* Pods-JSONJam_Example-dummy.m */; };
+		5F3509806C73079A9BA8A8E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E42985C5170A6F575F5E8D0 /* Foundation.framework */; };
+		61A626B118E47BCF53ABEDC8 /* JSONHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E1196D71A3E38867F88A0E /* JSONHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63337827B7BA3334E3CB0C6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E42985C5170A6F575F5E8D0 /* Foundation.framework */; };
+		71A72DA3435E2CB54217B9E7 /* Pods-JSONJam_Example-JSONJam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F7A334E4E7349162A2F932 /* Pods-JSONJam_Example-JSONJam-dummy.m */; };
+		806B36F5B101EDE4411669D3 /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40D53DC1317F9BA71AC2D0 /* JSONHelper.swift */; };
+		8125E628345AB5664219F596 /* Pods-JSONJam_Example-JSONHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8DB3C9B35D6FA909D50002 /* Pods-JSONJam_Example-JSONHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		836BA77290982D1612F2C837 /* JSONHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF439FD239E6963B2F613F5 /* JSONHelper.framework */; };
+		8B8FD9E9094C27BD83FED319 /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D40D53DC1317F9BA71AC2D0 /* JSONHelper.swift */; };
+		8DCBF56673AA70C5C14C3CB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E42985C5170A6F575F5E8D0 /* Foundation.framework */; };
+		93F33C487FB581F9391DDD7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E42985C5170A6F575F5E8D0 /* Foundation.framework */; };
+		9621715812ADC8E6111F1242 /* JSONHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF439FD239E6963B2F613F5 /* JSONHelper.framework */; };
+		A00121E16AD43E2AFBCA8B96 /* Pods-JSONJam_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28FD27BC576E51F3B1C8BEA5 /* Pods-JSONJam_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9820ED40B5D2855098F5301 /* Pods-JSONJam_Tests-JSONJam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E753C94EC09A7DDE31AF3A7 /* Pods-JSONJam_Tests-JSONJam-dummy.m */; };
+		B0DA5269788EF06D42B1D9D9 /* Pods-JSONJam_Tests-JSONHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D33B452C7A771E5190D966F /* Pods-JSONJam_Tests-JSONHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B40E81BA8F0472E5C2A4673F /* JSONJam.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1FC069C2E9F0BBB73C862B67 /* JSONJam.bundle */; };
+		E01BFFC47D74F051BFA58362 /* Pods-JSONJam_Tests-JSONHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A978CCC8450B93FBECD30851 /* Pods-JSONJam_Tests-JSONHelper-dummy.m */; };
+		E702B1A10A9794B13B2546F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E42985C5170A6F575F5E8D0 /* Foundation.framework */; };
+		F5185014138ED3944CB7D9AF /* Pods-JSONJam_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B990B653C79FCAE23E978F9 /* Pods-JSONJam_Tests-dummy.m */; };
+		FB158BCF3850D6AB963D4F08 /* JSONJam.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6AA4702C9C3D338806FE5F /* JSONJam.swift */; };
+		FCE673F3B5CE9AA697040AD0 /* JSONJam.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6AA4702C9C3D338806FE5F /* JSONJam.swift */; };
+		FEA902027A4006158B8049C2 /* Pods-JSONJam_Example-JSONHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BB5D6C740821EDA715B6C2 /* Pods-JSONJam_Example-JSONHelper-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		254D4298E89C76F81BC49196 /* PBXContainerItemProxy */ = {
+		65AF67051A7145FFE0B2E4F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5734AD5668735477D5990A5A /* Project object */;
+			containerPortal = CD0E790FCEFB769CDB5B00DD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8B03A898218B676A73699680;
-			remoteInfo = "Pods-JSONJam_Tests-JSONJam-JSONJam";
+			remoteGlobalIDString = B6B33B7B354FBF640AD98AEF;
+			remoteInfo = "Pods-JSONJam_Example-JSONHelper";
 		};
-		6526ED5E5EFEE545831119DF /* PBXContainerItemProxy */ = {
+		A926BDEBA9FB16BB3842877B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5734AD5668735477D5990A5A /* Project object */;
+			containerPortal = CD0E790FCEFB769CDB5B00DD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F56E033A3666A1861B10385B;
-			remoteInfo = "Pods-JSONJam_Example-JSONJam";
-		};
-		ABD54F581FD45838AE5B633A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5734AD5668735477D5990A5A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0F5959238E08089A4FBC5028;
+			remoteGlobalIDString = 571A177F20A5B57C46372500;
 			remoteInfo = "Pods-JSONJam_Example-JSONJam-JSONJam";
 		};
-		D9F3B9123FCE508ABF908AE4 /* PBXContainerItemProxy */ = {
+		B7438AC82C39AF2FDCB83DBE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5734AD5668735477D5990A5A /* Project object */;
+			containerPortal = CD0E790FCEFB769CDB5B00DD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C12064BEC406341090CFADFB;
+			remoteGlobalIDString = 457DB575B6103DEF9A7FC8FB;
+			remoteInfo = "Pods-JSONJam_Tests-JSONJam-JSONJam";
+		};
+		BB1AF36D577851DB6D8F3A80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0E790FCEFB769CDB5B00DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6B33B7B354FBF640AD98AEF;
+			remoteInfo = "Pods-JSONJam_Example-JSONHelper";
+		};
+		BC4A8DA2158C35ECB2D520F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0E790FCEFB769CDB5B00DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7778BD5D9BB45DFBB163EFC;
 			remoteInfo = "Pods-JSONJam_Tests-JSONJam";
+		};
+		C0C840FD51180339C5CEC73A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0E790FCEFB769CDB5B00DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F295C3218FF19B459321831E;
+			remoteInfo = "Pods-JSONJam_Tests-JSONHelper";
+		};
+		F51A72B9A31CEC71EB23EA8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0E790FCEFB769CDB5B00DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D03E7AB88B78F58B434F40B1;
+			remoteInfo = "Pods-JSONJam_Example-JSONJam";
+		};
+		F6D65DCE1D1B0A82AE0ABCB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0E790FCEFB769CDB5B00DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F295C3218FF19B459321831E;
+			remoteInfo = "Pods-JSONJam_Tests-JSONHelper";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03820D56D9B11CD4DD17B83E /* Pods-JSONJam_Example-JSONJam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSONJam_Example-JSONJam-dummy.m"; sourceTree = "<group>"; };
-		0447EBE35DD2113B9D8D8B97 /* Pods-JSONJam_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSONJam_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		05CAFC322A4602F1351BFB9D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		182D3C6C036FF87073F33EA1 /* Pods-JSONJam_Tests-JSONJam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-JSONJam_Tests-JSONJam.modulemap"; path = "../Pods-JSONJam_Tests-JSONJam/Pods-JSONJam_Tests-JSONJam.modulemap"; sourceTree = "<group>"; };
-		19A66769DAC8EB8B8B575320 /* Pods-JSONJam_Example-JSONJam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSONJam_Example-JSONJam-umbrella.h"; sourceTree = "<group>"; };
-		1D1B8DAE647CE17F55195977 /* Pods-JSONJam_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSONJam_Tests-umbrella.h"; sourceTree = "<group>"; };
-		311270FE2E5E98817761A8C4 /* Pods-JSONJam_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSONJam_Tests-resources.sh"; sourceTree = "<group>"; };
-		470E8D3A2D895278B7F3BDDD /* Pods-JSONJam_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONJam_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4C1ABD556FD1DB55DF80AA8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		502905D523F082FE3CCA8F81 /* JSONJam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONJam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5222C686777EF3EA856E89D4 /* Pods-JSONJam_Tests-JSONJam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-JSONJam_Tests-JSONJam-dummy.m"; path = "../Pods-JSONJam_Tests-JSONJam/Pods-JSONJam_Tests-JSONJam-dummy.m"; sourceTree = "<group>"; };
-		53ACAABAC682AFFB9B6F45B0 /* Pods_JSONJam_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONJam_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54E611DEBAD179DC0D97101A /* Pods-JSONJam_Tests-JSONJam-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONJam_Tests-JSONJam-Private.xcconfig"; path = "../Pods-JSONJam_Tests-JSONJam/Pods-JSONJam_Tests-JSONJam-Private.xcconfig"; sourceTree = "<group>"; };
-		5AFBF030C51DD9059EA5763E /* Pods-JSONJam_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONJam_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6A3B25559CC8EC1CC3A6D38B /* Pods-JSONJam_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JSONJam_Tests.modulemap"; sourceTree = "<group>"; };
-		71BCF00BCAA67C54AD87E57F /* Pods-JSONJam_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONJam_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7393B8C9513EE749AA96601C /* Pods-JSONJam_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSONJam_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		754930E14998865CA1D87C8A /* Pods-JSONJam_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSONJam_Tests-dummy.m"; sourceTree = "<group>"; };
-		7B1BDF408BD313ACD04CA634 /* Pods-JSONJam_Example-JSONJam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JSONJam_Example-JSONJam.modulemap"; sourceTree = "<group>"; };
-		885DC05605826958D04A740B /* Pods-JSONJam_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSONJam_Example-dummy.m"; sourceTree = "<group>"; };
-		97780631F32BEBDE1B51A582 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DD86A047B42A5B6D45866D8 /* Pods-JSONJam_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSONJam_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9DD87376D744B54AC18482CD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		A057C0EE50C825355D114155 /* Pods-JSONJam_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSONJam_Example-resources.sh"; sourceTree = "<group>"; };
-		A33D85A5DBF0D17CAAB9F4B5 /* Pods-JSONJam_Tests-JSONJam-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JSONJam_Tests-JSONJam-prefix.pch"; path = "../Pods-JSONJam_Tests-JSONJam/Pods-JSONJam_Tests-JSONJam-prefix.pch"; sourceTree = "<group>"; };
-		A9D2610BF4020FBC927A9B7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB420C658508D9BB76B7870A /* Pods-JSONJam_Example-JSONJam-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSONJam_Example-JSONJam-prefix.pch"; sourceTree = "<group>"; };
-		ACB9009D33056F00965ACDD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		AD8CA3EFFDCFC1E3E2B5A107 /* Pods-JSONJam_Example-JSONJam.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONJam_Example-JSONJam.xcconfig"; sourceTree = "<group>"; };
-		AE4E7FB40A9CA4C96C7CE6F6 /* Pods-JSONJam_Tests-JSONJam.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONJam_Tests-JSONJam.xcconfig"; path = "../Pods-JSONJam_Tests-JSONJam/Pods-JSONJam_Tests-JSONJam.xcconfig"; sourceTree = "<group>"; };
-		BA1B4A69CD783D5007BDDAB4 /* Pods-JSONJam_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSONJam_Tests-environment.h"; sourceTree = "<group>"; };
-		BC0942C5AB7F9752FA73EB67 /* JSONJam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONJam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCB4B12DF6F410CE7045034F /* Pods-JSONJam_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSONJam_Example-environment.h"; sourceTree = "<group>"; };
-		BF0900938F5EF729B0F7622A /* Pods-JSONJam_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSONJam_Example-umbrella.h"; sourceTree = "<group>"; };
-		C13336FD40BE38C29C72B7E5 /* Pods-JSONJam_Example-JSONJam-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONJam_Example-JSONJam-Private.xcconfig"; sourceTree = "<group>"; };
-		C19B101D48083C955C3834DC /* Pods-JSONJam_Tests-JSONJam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JSONJam_Tests-JSONJam-umbrella.h"; path = "../Pods-JSONJam_Tests-JSONJam/Pods-JSONJam_Tests-JSONJam-umbrella.h"; sourceTree = "<group>"; };
-		C515188950D2E2C334FB41B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-JSONJam_Tests-JSONJam/Info.plist"; sourceTree = "<group>"; };
-		CBC0E3D13E2F997B86B1AE83 /* JSONJam.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONJam.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0184D0CBF7D6BB1276FFA7A /* Pods-JSONJam_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JSONJam_Example.modulemap"; sourceTree = "<group>"; };
-		DF314764B160F3BFAA88D757 /* Pods-JSONJam_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSONJam_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E220749C8C4E455F277741CA /* Pods-JSONJam_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSONJam_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E7C6FF0347AD5D97BE150315 /* Pods-JSONJam_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSONJam_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		ED11944F51937EBE7C099EF7 /* JSONJam.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONJam.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		F672560D59A0B4722D0F645B /* Pods_JSONJam_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONJam_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8F2CBCA74BCF3AFF3CB4EBA /* Pods-JSONJam_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONJam_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0185C330D728BFF5B2E02099 /* Pods-JSONJam_Example-JSONHelper-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONJam_Example-JSONHelper-Private.xcconfig"; sourceTree = "<group>"; };
+		088F71396FEE3B303945B75A /* Pods-JSONJam_Example-JSONJam-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONJam_Example-JSONJam-Private.xcconfig"; sourceTree = "<group>"; };
+		08999A6A72209D8DC97611FD /* Pods-JSONJam_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSONJam_Example-dummy.m"; sourceTree = "<group>"; };
+		146E4BED56AD2B4214267002 /* Pods-JSONJam_Example-JSONJam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JSONJam_Example-JSONJam.modulemap"; sourceTree = "<group>"; };
+		1502E8548EBC518465871A1E /* Pods-JSONJam_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSONJam_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		15F7A334E4E7349162A2F932 /* Pods-JSONJam_Example-JSONJam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSONJam_Example-JSONJam-dummy.m"; sourceTree = "<group>"; };
+		1C21C08B230D4A8701812A9B /* Pods-JSONJam_Example-JSONHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONJam_Example-JSONHelper.xcconfig"; sourceTree = "<group>"; };
+		1C6352D13F99961720E4C9FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D33B452C7A771E5190D966F /* Pods-JSONJam_Tests-JSONHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JSONJam_Tests-JSONHelper-umbrella.h"; path = "../Pods-JSONJam_Tests-JSONHelper/Pods-JSONJam_Tests-JSONHelper-umbrella.h"; sourceTree = "<group>"; };
+		1FC069C2E9F0BBB73C862B67 /* JSONJam.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONJam.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		20079F69D2DA8AE6BD168F47 /* Pods-JSONJam_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JSONJam_Tests.modulemap"; sourceTree = "<group>"; };
+		20E7571C6A219FA6666304BE /* Pods-JSONJam_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSONJam_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		22E1196D71A3E38867F88A0E /* JSONHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHelper.h; path = JSONHelper/JSONHelper.h; sourceTree = "<group>"; };
+		28FD27BC576E51F3B1C8BEA5 /* Pods-JSONJam_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSONJam_Tests-umbrella.h"; sourceTree = "<group>"; };
+		295CDF564205CE0ADBA40882 /* JSONJam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONJam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D40D53DC1317F9BA71AC2D0 /* JSONHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONHelper.swift; path = JSONHelper/JSONHelper.swift; sourceTree = "<group>"; };
+		2E753C94EC09A7DDE31AF3A7 /* Pods-JSONJam_Tests-JSONJam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-JSONJam_Tests-JSONJam-dummy.m"; path = "../Pods-JSONJam_Tests-JSONJam/Pods-JSONJam_Tests-JSONJam-dummy.m"; sourceTree = "<group>"; };
+		301A6A50141BAE574EB2486D /* Pods-JSONJam_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONJam_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		308CDD40A3443315FB5FACDE /* Pods-JSONJam_Tests-JSONJam-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JSONJam_Tests-JSONJam-prefix.pch"; path = "../Pods-JSONJam_Tests-JSONJam/Pods-JSONJam_Tests-JSONJam-prefix.pch"; sourceTree = "<group>"; };
+		357D6790AE9E9E672B4B6ADE /* Pods-JSONJam_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSONJam_Example-frameworks.sh"; sourceTree = "<group>"; };
+		37F8C1EC6A196591E3E0F80B /* Pods-JSONJam_Tests-JSONHelper-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONJam_Tests-JSONHelper-Private.xcconfig"; path = "../Pods-JSONJam_Tests-JSONHelper/Pods-JSONJam_Tests-JSONHelper-Private.xcconfig"; sourceTree = "<group>"; };
+		3DD9636C47BF0E9E58ECD7C1 /* Pods-JSONJam_Tests-JSONHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-JSONJam_Tests-JSONHelper.modulemap"; path = "../Pods-JSONJam_Tests-JSONHelper/Pods-JSONJam_Tests-JSONHelper.modulemap"; sourceTree = "<group>"; };
+		420894166A4CF92BE4C9199C /* Pods-JSONJam_Example-JSONHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JSONJam_Example-JSONHelper.modulemap"; sourceTree = "<group>"; };
+		4E42985C5170A6F575F5E8D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		51B17DD068DB6317B5254F36 /* Pods_JSONJam_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONJam_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5319478E0ED83E31FEC80F5A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5B990B653C79FCAE23E978F9 /* Pods-JSONJam_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSONJam_Tests-dummy.m"; sourceTree = "<group>"; };
+		5D57E3BC60E1A783D4B4B9C5 /* Pods-JSONJam_Tests-JSONJam.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONJam_Tests-JSONJam.xcconfig"; path = "../Pods-JSONJam_Tests-JSONJam/Pods-JSONJam_Tests-JSONJam.xcconfig"; sourceTree = "<group>"; };
+		5FD0F6963B616E26F26E3485 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62173F9B7696B07FF9A75BE1 /* Pods-JSONJam_Example-JSONJam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSONJam_Example-JSONJam-umbrella.h"; sourceTree = "<group>"; };
+		634420E6C8E84977CFD7F875 /* Pods-JSONJam_Tests-JSONHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONJam_Tests-JSONHelper.xcconfig"; path = "../Pods-JSONJam_Tests-JSONHelper/Pods-JSONJam_Tests-JSONHelper.xcconfig"; sourceTree = "<group>"; };
+		66E45F40BCCF7DC2C09F30CC /* JSONHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		694FAE72BCFA568B9CC76446 /* Pods-JSONJam_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSONJam_Example-umbrella.h"; sourceTree = "<group>"; };
+		74FB5DEB2F8CC6B499004031 /* JSONHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75049D1232765EB7D319EF26 /* Pods-JSONJam_Tests-JSONHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JSONJam_Tests-JSONHelper-prefix.pch"; path = "../Pods-JSONJam_Tests-JSONHelper/Pods-JSONJam_Tests-JSONHelper-prefix.pch"; sourceTree = "<group>"; };
+		7EF439FD239E6963B2F613F5 /* JSONHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5A89D08131DB3444653619 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83BB5D6C740821EDA715B6C2 /* Pods-JSONJam_Example-JSONHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSONJam_Example-JSONHelper-dummy.m"; sourceTree = "<group>"; };
+		86B4F4AD8984CA9E3896599B /* Pods_JSONJam_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONJam_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFEE60798DA8F752E22B8DE /* Pods-JSONJam_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONJam_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8E8DB3C9B35D6FA909D50002 /* Pods-JSONJam_Example-JSONHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSONJam_Example-JSONHelper-umbrella.h"; sourceTree = "<group>"; };
+		93C2111F414B7AD03F955F00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-JSONJam_Tests-JSONJam/Info.plist"; sourceTree = "<group>"; };
+		97B8638372C2A12803AF7DDB /* JSONJam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONJam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB0B3D416043884E05A4E7A /* Pods-JSONJam_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSONJam_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9E002719AC853887982143A7 /* Pods-JSONJam_Tests-JSONJam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JSONJam_Tests-JSONJam-umbrella.h"; path = "../Pods-JSONJam_Tests-JSONJam/Pods-JSONJam_Tests-JSONJam-umbrella.h"; sourceTree = "<group>"; };
+		9FEC36DA14C15B680894C050 /* Pods-JSONJam_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JSONJam_Example.modulemap"; sourceTree = "<group>"; };
+		A3278DFDD45964FE8F4FF8D5 /* Pods-JSONJam_Tests-JSONJam-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONJam_Tests-JSONJam-Private.xcconfig"; path = "../Pods-JSONJam_Tests-JSONJam/Pods-JSONJam_Tests-JSONJam-Private.xcconfig"; sourceTree = "<group>"; };
+		A5F63AD94F2B0DA91EB97ED2 /* Pods-JSONJam_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONJam_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A6B1231DC29C813D5A31E625 /* Pods-JSONJam_Tests-JSONJam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-JSONJam_Tests-JSONJam.modulemap"; path = "../Pods-JSONJam_Tests-JSONJam/Pods-JSONJam_Tests-JSONJam.modulemap"; sourceTree = "<group>"; };
+		A723459763F755325DBC9FC1 /* Pods-JSONJam_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSONJam_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A978CCC8450B93FBECD30851 /* Pods-JSONJam_Tests-JSONHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-JSONJam_Tests-JSONHelper-dummy.m"; path = "../Pods-JSONJam_Tests-JSONHelper/Pods-JSONJam_Tests-JSONHelper-dummy.m"; sourceTree = "<group>"; };
+		AF972342424A2163B805412F /* Pods-JSONJam_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSONJam_Example-resources.sh"; sourceTree = "<group>"; };
+		B41F392BCF91A1560081C3BB /* Pods-JSONJam_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONJam_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B46F9F72F251B81540541F24 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEA0A85D3FDB6AB57CF393D /* Pods-JSONJam_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSONJam_Example-environment.h"; sourceTree = "<group>"; };
+		BE23163EF036BF64356BE1F3 /* Pods-JSONJam_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSONJam_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C71ABFB39917504899841227 /* Pods-JSONJam_Example-JSONJam.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSONJam_Example-JSONJam.xcconfig"; sourceTree = "<group>"; };
+		C85CC914671A8F2EBAE3FFE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-JSONJam_Tests-JSONHelper/Info.plist"; sourceTree = "<group>"; };
+		CAC4D7F171B8114F24783295 /* Pods-JSONJam_Example-JSONJam-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSONJam_Example-JSONJam-prefix.pch"; sourceTree = "<group>"; };
+		CB5320C6ADFC1996A13AAA66 /* JSONJam.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONJam.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83EE58BF0FC63964DD619F3 /* Pods-JSONJam_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSONJam_Tests-resources.sh"; sourceTree = "<group>"; };
+		E626D931AEDE137FC18626E9 /* Pods-JSONJam_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSONJam_Tests-environment.h"; sourceTree = "<group>"; };
+		ED956D263E924FDC8847247D /* Pods-JSONJam_Example-JSONHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSONJam_Example-JSONHelper-prefix.pch"; sourceTree = "<group>"; };
+		EF6AA4702C9C3D338806FE5F /* JSONJam.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONJam.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		177D8E9697686B6F52C94568 /* Frameworks */ = {
+		0B359E22E45A628ADAC7B50F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F33C487FB581F9391DDD7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E1982780CFA898469DF7E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3509806C73079A9BA8A8E3 /* Foundation.framework in Frameworks */,
+				9621715812ADC8E6111F1242 /* JSONHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171F833FE5C8E48A323A40CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2655C1AE53AB6CCC789084A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC5CFD0E2BB4EB1A847D551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63337827B7BA3334E3CB0C6F /* Foundation.framework in Frameworks */,
+				836BA77290982D1612F2C837 /* JSONHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2848EB7175F4062D49EDC00D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		275C4750D9FBB5769977081D /* Frameworks */ = {
+		3B1E6CFA5ECC9D2742F7ACA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F3F67FC1C17DE2873A99BE /* Foundation.framework in Frameworks */,
+				E702B1A10A9794B13B2546F3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CE7B1F85EB9A337E5D318ED /* Frameworks */ = {
+		75C16DC00485BD899253DEBF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A85F2E72CCA58F840A672D6 /* Foundation.framework in Frameworks */,
+				8DCBF56673AA70C5C14C3CB5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80668402EB603B5CBB6C3595 /* Frameworks */ = {
+		FABA62EF82ED48D9C9FB39F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0F584CBEC30479F1BD618F8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		998CA552337646AE4E6147F7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EAD6659D039B9ABDF75AC7B3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E243E1093FB92D3B1EC1119 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0758E96826B1CE67EF9B32AD /* Products */ = {
+		130E71907DDC5A80B4A78CFA /* Pods-JSONJam_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				ED11944F51937EBE7C099EF7 /* JSONJam.bundle */,
-				CBC0E3D13E2F997B86B1AE83 /* JSONJam.bundle */,
-				BC0942C5AB7F9752FA73EB67 /* JSONJam.framework */,
-				502905D523F082FE3CCA8F81 /* JSONJam.framework */,
-				53ACAABAC682AFFB9B6F45B0 /* Pods_JSONJam_Example.framework */,
-				F672560D59A0B4722D0F645B /* Pods_JSONJam_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		349195F81DEAE6DC7952EE8D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9DD87376D744B54AC18482CD /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		450CB41CD5FDA4ADF32F0EC4 /* Pods-JSONJam_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				97780631F32BEBDE1B51A582 /* Info.plist */,
-				6A3B25559CC8EC1CC3A6D38B /* Pods-JSONJam_Tests.modulemap */,
-				9DD86A047B42A5B6D45866D8 /* Pods-JSONJam_Tests-acknowledgements.markdown */,
-				DF314764B160F3BFAA88D757 /* Pods-JSONJam_Tests-acknowledgements.plist */,
-				754930E14998865CA1D87C8A /* Pods-JSONJam_Tests-dummy.m */,
-				BA1B4A69CD783D5007BDDAB4 /* Pods-JSONJam_Tests-environment.h */,
-				E7C6FF0347AD5D97BE150315 /* Pods-JSONJam_Tests-frameworks.sh */,
-				311270FE2E5E98817761A8C4 /* Pods-JSONJam_Tests-resources.sh */,
-				1D1B8DAE647CE17F55195977 /* Pods-JSONJam_Tests-umbrella.h */,
-				470E8D3A2D895278B7F3BDDD /* Pods-JSONJam_Tests.debug.xcconfig */,
-				5AFBF030C51DD9059EA5763E /* Pods-JSONJam_Tests.release.xcconfig */,
+				B46F9F72F251B81540541F24 /* Info.plist */,
+				20079F69D2DA8AE6BD168F47 /* Pods-JSONJam_Tests.modulemap */,
+				BE23163EF036BF64356BE1F3 /* Pods-JSONJam_Tests-acknowledgements.markdown */,
+				1502E8548EBC518465871A1E /* Pods-JSONJam_Tests-acknowledgements.plist */,
+				5B990B653C79FCAE23E978F9 /* Pods-JSONJam_Tests-dummy.m */,
+				E626D931AEDE137FC18626E9 /* Pods-JSONJam_Tests-environment.h */,
+				20E7571C6A219FA6666304BE /* Pods-JSONJam_Tests-frameworks.sh */,
+				D83EE58BF0FC63964DD619F3 /* Pods-JSONJam_Tests-resources.sh */,
+				28FD27BC576E51F3B1C8BEA5 /* Pods-JSONJam_Tests-umbrella.h */,
+				B41F392BCF91A1560081C3BB /* Pods-JSONJam_Tests.debug.xcconfig */,
+				301A6A50141BAE574EB2486D /* Pods-JSONJam_Tests.release.xcconfig */,
 			);
 			name = "Pods-JSONJam_Tests";
 			path = "Target Support Files/Pods-JSONJam_Tests";
 			sourceTree = "<group>";
 		};
-		4ED009B07444CB593050BA97 /* JSONJam */ = {
+		1CE6D872F905EBFEF57870EE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E3772F63B36F70FE7CB83987 /* Pod */,
-				C646A081CC35B410C0F94C18 /* Support Files */,
+				5E3FE40C3BC188DAC9D7B2D8 /* JSONJam */,
 			);
-			name = JSONJam;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		65C15D3412283605CB42E7A1 = {
+		377D67D9D1BD555C677AC8C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				05CAFC322A4602F1351BFB9D /* Podfile */,
-				C7E347210E9C23410307A992 /* Development Pods */,
-				D19D3C2E339961178BFA1D4B /* Frameworks */,
-				0758E96826B1CE67EF9B32AD /* Products */,
-				9426B06D8C6220D048E629B4 /* Targets Support Files */,
+				7EF439FD239E6963B2F613F5 /* JSONHelper.framework */,
+				79136F308562DB8465D557B1 /* iOS */,
 			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		88B08AD645CFF7B8A4363CD7 /* Pods-JSONJam_Example */ = {
+		3F139319AE92265AD64087A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C1ABD556FD1DB55DF80AA8F /* Info.plist */,
-				D0184D0CBF7D6BB1276FFA7A /* Pods-JSONJam_Example.modulemap */,
-				7393B8C9513EE749AA96601C /* Pods-JSONJam_Example-acknowledgements.markdown */,
-				0447EBE35DD2113B9D8D8B97 /* Pods-JSONJam_Example-acknowledgements.plist */,
-				885DC05605826958D04A740B /* Pods-JSONJam_Example-dummy.m */,
-				BCB4B12DF6F410CE7045034F /* Pods-JSONJam_Example-environment.h */,
-				E220749C8C4E455F277741CA /* Pods-JSONJam_Example-frameworks.sh */,
-				A057C0EE50C825355D114155 /* Pods-JSONJam_Example-resources.sh */,
-				BF0900938F5EF729B0F7622A /* Pods-JSONJam_Example-umbrella.h */,
-				F8F2CBCA74BCF3AFF3CB4EBA /* Pods-JSONJam_Example.debug.xcconfig */,
-				71BCF00BCAA67C54AD87E57F /* Pods-JSONJam_Example.release.xcconfig */,
+				74FB5DEB2F8CC6B499004031 /* JSONHelper.framework */,
+				66E45F40BCCF7DC2C09F30CC /* JSONHelper.framework */,
+				1FC069C2E9F0BBB73C862B67 /* JSONJam.bundle */,
+				CB5320C6ADFC1996A13AAA66 /* JSONJam.bundle */,
+				295CDF564205CE0ADBA40882 /* JSONJam.framework */,
+				97B8638372C2A12803AF7DDB /* JSONJam.framework */,
+				51B17DD068DB6317B5254F36 /* Pods_JSONJam_Example.framework */,
+				86B4F4AD8984CA9E3896599B /* Pods_JSONJam_Tests.framework */,
 			);
-			name = "Pods-JSONJam_Example";
-			path = "Target Support Files/Pods-JSONJam_Example";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		9426B06D8C6220D048E629B4 /* Targets Support Files */ = {
+		4528F93C27F59FEEBAA1A5A1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				88B08AD645CFF7B8A4363CD7 /* Pods-JSONJam_Example */,
-				450CB41CD5FDA4ADF32F0EC4 /* Pods-JSONJam_Tests */,
+				EF6AA4702C9C3D338806FE5F /* JSONJam.swift */,
 			);
-			name = "Targets Support Files";
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		C646A081CC35B410C0F94C18 /* Support Files */ = {
+		4767EB46BBF754AB3CD77791 /* JSONHelper */ = {
 			isa = PBXGroup;
 			children = (
-				A9D2610BF4020FBC927A9B7A /* Info.plist */,
-				C515188950D2E2C334FB41B4 /* Info.plist */,
-				7B1BDF408BD313ACD04CA634 /* Pods-JSONJam_Example-JSONJam.modulemap */,
-				AD8CA3EFFDCFC1E3E2B5A107 /* Pods-JSONJam_Example-JSONJam.xcconfig */,
-				C13336FD40BE38C29C72B7E5 /* Pods-JSONJam_Example-JSONJam-Private.xcconfig */,
-				03820D56D9B11CD4DD17B83E /* Pods-JSONJam_Example-JSONJam-dummy.m */,
-				AB420C658508D9BB76B7870A /* Pods-JSONJam_Example-JSONJam-prefix.pch */,
-				19A66769DAC8EB8B8B575320 /* Pods-JSONJam_Example-JSONJam-umbrella.h */,
-				182D3C6C036FF87073F33EA1 /* Pods-JSONJam_Tests-JSONJam.modulemap */,
-				AE4E7FB40A9CA4C96C7CE6F6 /* Pods-JSONJam_Tests-JSONJam.xcconfig */,
-				54E611DEBAD179DC0D97101A /* Pods-JSONJam_Tests-JSONJam-Private.xcconfig */,
-				5222C686777EF3EA856E89D4 /* Pods-JSONJam_Tests-JSONJam-dummy.m */,
-				A33D85A5DBF0D17CAAB9F4B5 /* Pods-JSONJam_Tests-JSONJam-prefix.pch */,
-				C19B101D48083C955C3834DC /* Pods-JSONJam_Tests-JSONJam-umbrella.h */,
+				22E1196D71A3E38867F88A0E /* JSONHelper.h */,
+				2D40D53DC1317F9BA71AC2D0 /* JSONHelper.swift */,
+				E10DBFD3F4461654B1E567A3 /* Support Files */,
+			);
+			path = JSONHelper;
+			sourceTree = "<group>";
+		};
+		4A15E8B007EDB8612242C99D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C6352D13F99961720E4C9FF /* Info.plist */,
+				93C2111F414B7AD03F955F00 /* Info.plist */,
+				146E4BED56AD2B4214267002 /* Pods-JSONJam_Example-JSONJam.modulemap */,
+				C71ABFB39917504899841227 /* Pods-JSONJam_Example-JSONJam.xcconfig */,
+				088F71396FEE3B303945B75A /* Pods-JSONJam_Example-JSONJam-Private.xcconfig */,
+				15F7A334E4E7349162A2F932 /* Pods-JSONJam_Example-JSONJam-dummy.m */,
+				CAC4D7F171B8114F24783295 /* Pods-JSONJam_Example-JSONJam-prefix.pch */,
+				62173F9B7696B07FF9A75BE1 /* Pods-JSONJam_Example-JSONJam-umbrella.h */,
+				A6B1231DC29C813D5A31E625 /* Pods-JSONJam_Tests-JSONJam.modulemap */,
+				5D57E3BC60E1A783D4B4B9C5 /* Pods-JSONJam_Tests-JSONJam.xcconfig */,
+				A3278DFDD45964FE8F4FF8D5 /* Pods-JSONJam_Tests-JSONJam-Private.xcconfig */,
+				2E753C94EC09A7DDE31AF3A7 /* Pods-JSONJam_Tests-JSONJam-dummy.m */,
+				308CDD40A3443315FB5FACDE /* Pods-JSONJam_Tests-JSONJam-prefix.pch */,
+				9E002719AC853887982143A7 /* Pods-JSONJam_Tests-JSONJam-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Pods-JSONJam_Example-JSONJam";
 			sourceTree = "<group>";
 		};
-		C7E347210E9C23410307A992 /* Development Pods */ = {
+		576C6B15AABBE4DFE9BA0378 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4ED009B07444CB593050BA97 /* JSONJam */,
+				4767EB46BBF754AB3CD77791 /* JSONHelper */,
 			);
-			name = "Development Pods";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		CAE933C5F1E26E0F8886F36B /* iOS */ = {
+		5E3FE40C3BC188DAC9D7B2D8 /* JSONJam */ = {
 			isa = PBXGroup;
 			children = (
-				ACB9009D33056F00965ACDD7 /* Foundation.framework */,
+				CCA06B59EE348AF4EB05EB7D /* Pod */,
+				4A15E8B007EDB8612242C99D /* Support Files */,
+			);
+			name = JSONJam;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		79136F308562DB8465D557B1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4E42985C5170A6F575F5E8D0 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D19D3C2E339961178BFA1D4B /* Frameworks */ = {
+		7AC3D363C8FF75C39838756B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CAE933C5F1E26E0F8886F36B /* iOS */,
+				BCEBEFBAC1696219985A7E85 /* Pods-JSONJam_Example */,
+				130E71907DDC5A80B4A78CFA /* Pods-JSONJam_Tests */,
 			);
-			name = Frameworks;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E3772F63B36F70FE7CB83987 /* Pod */ = {
+		9702BA9E00E1528AFB6623E2 = {
 			isa = PBXGroup;
 			children = (
-				349195F81DEAE6DC7952EE8D /* Classes */,
+				5319478E0ED83E31FEC80F5A /* Podfile */,
+				1CE6D872F905EBFEF57870EE /* Development Pods */,
+				377D67D9D1BD555C677AC8C0 /* Frameworks */,
+				576C6B15AABBE4DFE9BA0378 /* Pods */,
+				3F139319AE92265AD64087A8 /* Products */,
+				7AC3D363C8FF75C39838756B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BCEBEFBAC1696219985A7E85 /* Pods-JSONJam_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5FD0F6963B616E26F26E3485 /* Info.plist */,
+				9FEC36DA14C15B680894C050 /* Pods-JSONJam_Example.modulemap */,
+				9AB0B3D416043884E05A4E7A /* Pods-JSONJam_Example-acknowledgements.markdown */,
+				A723459763F755325DBC9FC1 /* Pods-JSONJam_Example-acknowledgements.plist */,
+				08999A6A72209D8DC97611FD /* Pods-JSONJam_Example-dummy.m */,
+				BBEA0A85D3FDB6AB57CF393D /* Pods-JSONJam_Example-environment.h */,
+				357D6790AE9E9E672B4B6ADE /* Pods-JSONJam_Example-frameworks.sh */,
+				AF972342424A2163B805412F /* Pods-JSONJam_Example-resources.sh */,
+				694FAE72BCFA568B9CC76446 /* Pods-JSONJam_Example-umbrella.h */,
+				A5F63AD94F2B0DA91EB97ED2 /* Pods-JSONJam_Example.debug.xcconfig */,
+				8AFEE60798DA8F752E22B8DE /* Pods-JSONJam_Example.release.xcconfig */,
+			);
+			name = "Pods-JSONJam_Example";
+			path = "Target Support Files/Pods-JSONJam_Example";
+			sourceTree = "<group>";
+		};
+		CCA06B59EE348AF4EB05EB7D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4528F93C27F59FEEBAA1A5A1 /* Classes */,
 			);
 			path = Pod;
+			sourceTree = "<group>";
+		};
+		E10DBFD3F4461654B1E567A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F5A89D08131DB3444653619 /* Info.plist */,
+				C85CC914671A8F2EBAE3FFE6 /* Info.plist */,
+				420894166A4CF92BE4C9199C /* Pods-JSONJam_Example-JSONHelper.modulemap */,
+				1C21C08B230D4A8701812A9B /* Pods-JSONJam_Example-JSONHelper.xcconfig */,
+				0185C330D728BFF5B2E02099 /* Pods-JSONJam_Example-JSONHelper-Private.xcconfig */,
+				83BB5D6C740821EDA715B6C2 /* Pods-JSONJam_Example-JSONHelper-dummy.m */,
+				ED956D263E924FDC8847247D /* Pods-JSONJam_Example-JSONHelper-prefix.pch */,
+				8E8DB3C9B35D6FA909D50002 /* Pods-JSONJam_Example-JSONHelper-umbrella.h */,
+				3DD9636C47BF0E9E58ECD7C1 /* Pods-JSONJam_Tests-JSONHelper.modulemap */,
+				634420E6C8E84977CFD7F875 /* Pods-JSONJam_Tests-JSONHelper.xcconfig */,
+				37F8C1EC6A196591E3E0F80B /* Pods-JSONJam_Tests-JSONHelper-Private.xcconfig */,
+				A978CCC8450B93FBECD30851 /* Pods-JSONJam_Tests-JSONHelper-dummy.m */,
+				75049D1232765EB7D319EF26 /* Pods-JSONJam_Tests-JSONHelper-prefix.pch */,
+				1D33B452C7A771E5190D966F /* Pods-JSONJam_Tests-JSONHelper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-JSONJam_Example-JSONHelper";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2FCCA04EC019FD044A3BCEDD /* Headers */ = {
+		316D52BCBCEB4106EE3FB917 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F2DC92DB48E3259DA2C8A22 /* Pods-JSONJam_Tests-umbrella.h in Headers */,
+				A00121E16AD43E2AFBCA8B96 /* Pods-JSONJam_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		890F23706F8E8A2B31E48EE2 /* Headers */ = {
+		3DA0C920E1F0C9FB46F21596 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3961A50FB1AF350E7AFECCC6 /* Pods-JSONJam_Tests-JSONJam-umbrella.h in Headers */,
+				37B423161DAC4C0B86C44102 /* Pods-JSONJam_Tests-JSONJam-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C440E2F964C56DFF81A92FDB /* Headers */ = {
+		60C63BA13F1E41DB92598A04 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92D22312C4AE004208260B93 /* Pods-JSONJam_Example-umbrella.h in Headers */,
+				50F71E82FDEFCEC67664E91C /* Pods-JSONJam_Example-JSONJam-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CECAD4F027CF979620171A10 /* Headers */ = {
+		7574F1BF565E30FE4A9EECC4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FFB0819713FA6D01B210171 /* Pods-JSONJam_Example-JSONJam-umbrella.h in Headers */,
+				61A626B118E47BCF53ABEDC8 /* JSONHelper.h in Headers */,
+				8125E628345AB5664219F596 /* Pods-JSONJam_Example-JSONHelper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B992CF2864C35FDB05A20C8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46349AEC9CF616080D239C7D /* JSONHelper.h in Headers */,
+				B0DA5269788EF06D42B1D9D9 /* Pods-JSONJam_Tests-JSONHelper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E8E663145CB9938FFEB7DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B15EE4A877F17011FF19D0B /* Pods-JSONJam_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0F5959238E08089A4FBC5028 /* Pods-JSONJam_Example-JSONJam-JSONJam */ = {
+		309FAFB4B71A048AB12E0792 /* Pods-JSONJam_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFA0BA83818389C324D5D0F6 /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Example-JSONJam-JSONJam" */;
+			buildConfigurationList = 2B73E5B035BB1739811296C6 /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Example" */;
 			buildPhases = (
-				C4679DAF68957394E0B2E1E4 /* Sources */,
-				998CA552337646AE4E6147F7 /* Frameworks */,
-				92BB4BB53BC1F654C292D3AF /* Resources */,
+				EFD93B084353E0B957119EED /* Sources */,
+				0B359E22E45A628ADAC7B50F /* Frameworks */,
+				D4E8E663145CB9938FFEB7DE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-JSONJam_Example-JSONJam-JSONJam";
-			productName = "Pods-JSONJam_Example-JSONJam-JSONJam";
-			productReference = CBC0E3D13E2F997B86B1AE83 /* JSONJam.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		45AB04A47E6978CA6614DC0D /* Pods-JSONJam_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1B68D5A4D9BE45BC1DBBF1F6 /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Tests" */;
-			buildPhases = (
-				1BDA700D080147A4BA103FD3 /* Sources */,
-				275C4750D9FBB5769977081D /* Frameworks */,
-				2FCCA04EC019FD044A3BCEDD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AF8D4DCE62A6963E5247DB00 /* PBXTargetDependency */,
-			);
-			name = "Pods-JSONJam_Tests";
-			productName = "Pods-JSONJam_Tests";
-			productReference = F672560D59A0B4722D0F645B /* Pods_JSONJam_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		70B7F21C46C6ED3814723AB6 /* Pods-JSONJam_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 39D902DD10D600C437BA495F /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Example" */;
-			buildPhases = (
-				6386AB7E5B7F121533ADD201 /* Sources */,
-				80668402EB603B5CBB6C3595 /* Frameworks */,
-				C440E2F964C56DFF81A92FDB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6B4CCFEEACA220F20CB02772 /* PBXTargetDependency */,
+				A83CD652ED0205F92A66A814 /* PBXTargetDependency */,
+				A2AFF434246BCA287E23E49D /* PBXTargetDependency */,
 			);
 			name = "Pods-JSONJam_Example";
 			productName = "Pods-JSONJam_Example";
-			productReference = 53ACAABAC682AFFB9B6F45B0 /* Pods_JSONJam_Example.framework */;
+			productReference = 51B17DD068DB6317B5254F36 /* Pods_JSONJam_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8B03A898218B676A73699680 /* Pods-JSONJam_Tests-JSONJam-JSONJam */ = {
+		37271629249FF4C19DDF1109 /* Pods-JSONJam_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D98D7687DDB3915305E50EB /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Tests-JSONJam-JSONJam" */;
+			buildConfigurationList = 3441561DA9B22FDB91463F50 /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Tests" */;
 			buildPhases = (
-				AFC082F4D544F54A741A5C31 /* Sources */,
-				177D8E9697686B6F52C94568 /* Frameworks */,
-				5DEEAB1B921B42F0048B06CB /* Resources */,
+				F00A30929FD809BD296F0AC3 /* Sources */,
+				3B1E6CFA5ECC9D2742F7ACA6 /* Frameworks */,
+				316D52BCBCEB4106EE3FB917 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E59901A6A98610A34F365F0F /* PBXTargetDependency */,
+				4E8EACF6DF1B98D7427E130A /* PBXTargetDependency */,
+			);
+			name = "Pods-JSONJam_Tests";
+			productName = "Pods-JSONJam_Tests";
+			productReference = 86B4F4AD8984CA9E3896599B /* Pods_JSONJam_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		457DB575B6103DEF9A7FC8FB /* Pods-JSONJam_Tests-JSONJam-JSONJam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BFF35464A2B890CD35DA57F /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Tests-JSONJam-JSONJam" */;
+			buildPhases = (
+				D0DC765AD180537821FD0429 /* Sources */,
+				FABA62EF82ED48D9C9FB39F2 /* Frameworks */,
+				925BE04C3596647496DCA392 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -402,310 +526,289 @@
 			);
 			name = "Pods-JSONJam_Tests-JSONJam-JSONJam";
 			productName = "Pods-JSONJam_Tests-JSONJam-JSONJam";
-			productReference = ED11944F51937EBE7C099EF7 /* JSONJam.bundle */;
+			productReference = 1FC069C2E9F0BBB73C862B67 /* JSONJam.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		C12064BEC406341090CFADFB /* Pods-JSONJam_Tests-JSONJam */ = {
+		571A177F20A5B57C46372500 /* Pods-JSONJam_Example-JSONJam-JSONJam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9C414DCF69D78087AB807DF /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Tests-JSONJam" */;
+			buildConfigurationList = 9E9EC1C35800E195E8002FCB /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Example-JSONJam-JSONJam" */;
 			buildPhases = (
-				90B64DA70948F69913C75D64 /* Sources */,
-				3CE7B1F85EB9A337E5D318ED /* Frameworks */,
-				57CE70B7B03AF3506AC5AAC8 /* Resources */,
-				890F23706F8E8A2B31E48EE2 /* Headers */,
+				DFB53A2FCBD6C17F26C110BF /* Sources */,
+				2848EB7175F4062D49EDC00D /* Frameworks */,
+				9176341233C8D58E43852DB4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				74F3A1568C03398943DBFEDB /* PBXTargetDependency */,
 			);
-			name = "Pods-JSONJam_Tests-JSONJam";
-			productName = "Pods-JSONJam_Tests-JSONJam";
-			productReference = 502905D523F082FE3CCA8F81 /* JSONJam.framework */;
+			name = "Pods-JSONJam_Example-JSONJam-JSONJam";
+			productName = "Pods-JSONJam_Example-JSONJam-JSONJam";
+			productReference = CB5320C6ADFC1996A13AAA66 /* JSONJam.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B6B33B7B354FBF640AD98AEF /* Pods-JSONJam_Example-JSONHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C828565C3BE7D2EA5339B530 /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Example-JSONHelper" */;
+			buildPhases = (
+				21A686EBBA77F86860D61520 /* Sources */,
+				171F833FE5C8E48A323A40CE /* Frameworks */,
+				7574F1BF565E30FE4A9EECC4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JSONJam_Example-JSONHelper";
+			productName = "Pods-JSONJam_Example-JSONHelper";
+			productReference = 74FB5DEB2F8CC6B499004031 /* JSONHelper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F56E033A3666A1861B10385B /* Pods-JSONJam_Example-JSONJam */ = {
+		D03E7AB88B78F58B434F40B1 /* Pods-JSONJam_Example-JSONJam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B21D73DE7D633AF746C63F4 /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Example-JSONJam" */;
+			buildConfigurationList = 52A091689A99F80A2885F922 /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Example-JSONJam" */;
 			buildPhases = (
-				A20D1EB282ADE480EE4ECF43 /* Sources */,
-				EAD6659D039B9ABDF75AC7B3 /* Frameworks */,
-				3C4A40E76E3247FC71A0A05C /* Resources */,
-				CECAD4F027CF979620171A10 /* Headers */,
+				22B17766A9B58E736450E4B0 /* Sources */,
+				1BC5CFD0E2BB4EB1A847D551 /* Frameworks */,
+				CCBB1694753758552D179C4E /* Resources */,
+				60C63BA13F1E41DB92598A04 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E1AD4DB47ED556C38C34858D /* PBXTargetDependency */,
+				A7DB22BA20D7921257F0B74C /* PBXTargetDependency */,
+				7B70957875E7FB7C1C30136E /* PBXTargetDependency */,
 			);
 			name = "Pods-JSONJam_Example-JSONJam";
 			productName = "Pods-JSONJam_Example-JSONJam";
-			productReference = BC0942C5AB7F9752FA73EB67 /* JSONJam.framework */;
+			productReference = 97B8638372C2A12803AF7DDB /* JSONJam.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7778BD5D9BB45DFBB163EFC /* Pods-JSONJam_Tests-JSONJam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9FA864CD53F222A3AB573A /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Tests-JSONJam" */;
+			buildPhases = (
+				49773811900ADDAEBE39906A /* Sources */,
+				13E1982780CFA898469DF7E4 /* Frameworks */,
+				C7EA0A202C42E7E00250CFDB /* Resources */,
+				3DA0C920E1F0C9FB46F21596 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6A76B7BE49597FEF519210 /* PBXTargetDependency */,
+				47FA89414D0673FB31D1B375 /* PBXTargetDependency */,
+			);
+			name = "Pods-JSONJam_Tests-JSONJam";
+			productName = "Pods-JSONJam_Tests-JSONJam";
+			productReference = 295CDF564205CE0ADBA40882 /* JSONJam.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F295C3218FF19B459321831E /* Pods-JSONJam_Tests-JSONHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C6C5F551C257B4459306D3 /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Tests-JSONHelper" */;
+			buildPhases = (
+				6AED4419BA845402A2BCF63D /* Sources */,
+				75C16DC00485BD899253DEBF /* Frameworks */,
+				B992CF2864C35FDB05A20C8B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JSONJam_Tests-JSONHelper";
+			productName = "Pods-JSONJam_Tests-JSONHelper";
+			productReference = 66E45F40BCCF7DC2C09F30CC /* JSONHelper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5734AD5668735477D5990A5A /* Project object */ = {
+		CD0E790FCEFB769CDB5B00DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = D61E3C6255509FBFABA30A97 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4CE35426C61AE461F6A4C052 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 65C15D3412283605CB42E7A1;
-			productRefGroup = 0758E96826B1CE67EF9B32AD /* Products */;
+			mainGroup = 9702BA9E00E1528AFB6623E2;
+			productRefGroup = 3F139319AE92265AD64087A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				70B7F21C46C6ED3814723AB6 /* Pods-JSONJam_Example */,
-				F56E033A3666A1861B10385B /* Pods-JSONJam_Example-JSONJam */,
-				0F5959238E08089A4FBC5028 /* Pods-JSONJam_Example-JSONJam-JSONJam */,
-				45AB04A47E6978CA6614DC0D /* Pods-JSONJam_Tests */,
-				C12064BEC406341090CFADFB /* Pods-JSONJam_Tests-JSONJam */,
-				8B03A898218B676A73699680 /* Pods-JSONJam_Tests-JSONJam-JSONJam */,
+				309FAFB4B71A048AB12E0792 /* Pods-JSONJam_Example */,
+				B6B33B7B354FBF640AD98AEF /* Pods-JSONJam_Example-JSONHelper */,
+				D03E7AB88B78F58B434F40B1 /* Pods-JSONJam_Example-JSONJam */,
+				571A177F20A5B57C46372500 /* Pods-JSONJam_Example-JSONJam-JSONJam */,
+				37271629249FF4C19DDF1109 /* Pods-JSONJam_Tests */,
+				F295C3218FF19B459321831E /* Pods-JSONJam_Tests-JSONHelper */,
+				E7778BD5D9BB45DFBB163EFC /* Pods-JSONJam_Tests-JSONJam */,
+				457DB575B6103DEF9A7FC8FB /* Pods-JSONJam_Tests-JSONJam-JSONJam */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3C4A40E76E3247FC71A0A05C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				44FAC85A5AC529ABBE2183DE /* JSONJam.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		57CE70B7B03AF3506AC5AAC8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F6EE27BE83831C938733F254 /* JSONJam.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5DEEAB1B921B42F0048B06CB /* Resources */ = {
+		9176341233C8D58E43852DB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92BB4BB53BC1F654C292D3AF /* Resources */ = {
+		925BE04C3596647496DCA392 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EA0A202C42E7E00250CFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40E81BA8F0472E5C2A4673F /* JSONJam.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBB1694753758552D179C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1638C235175D542A2B12C7C5 /* JSONJam.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1BDA700D080147A4BA103FD3 /* Sources */ = {
+		21A686EBBA77F86860D61520 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCC8776A28C72F4B91567526 /* Pods-JSONJam_Tests-dummy.m in Sources */,
+				806B36F5B101EDE4411669D3 /* JSONHelper.swift in Sources */,
+				FEA902027A4006158B8049C2 /* Pods-JSONJam_Example-JSONHelper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6386AB7E5B7F121533ADD201 /* Sources */ = {
+		22B17766A9B58E736450E4B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D707FF1B8E2218E202B09E7 /* Pods-JSONJam_Example-dummy.m in Sources */,
+				FCE673F3B5CE9AA697040AD0 /* JSONJam.swift in Sources */,
+				71A72DA3435E2CB54217B9E7 /* Pods-JSONJam_Example-JSONJam-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90B64DA70948F69913C75D64 /* Sources */ = {
+		49773811900ADDAEBE39906A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2659F3E84D6C138E3E2D790 /* Pods-JSONJam_Tests-JSONJam-dummy.m in Sources */,
-				45918A5A76AF90F47D95736A /* ReplaceMe.swift in Sources */,
+				FB158BCF3850D6AB963D4F08 /* JSONJam.swift in Sources */,
+				A9820ED40B5D2855098F5301 /* Pods-JSONJam_Tests-JSONJam-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A20D1EB282ADE480EE4ECF43 /* Sources */ = {
+		6AED4419BA845402A2BCF63D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				553F5A3157F10C121FF05C06 /* Pods-JSONJam_Example-JSONJam-dummy.m in Sources */,
-				023F47F3C573C10EFC99F943 /* ReplaceMe.swift in Sources */,
+				8B8FD9E9094C27BD83FED319 /* JSONHelper.swift in Sources */,
+				E01BFFC47D74F051BFA58362 /* Pods-JSONJam_Tests-JSONHelper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFC082F4D544F54A741A5C31 /* Sources */ = {
+		D0DC765AD180537821FD0429 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4679DAF68957394E0B2E1E4 /* Sources */ = {
+		DFB53A2FCBD6C17F26C110BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD93B084353E0B957119EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C18289C120E06A3E7668CDA /* Pods-JSONJam_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00A30929FD809BD296F0AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5185014138ED3944CB7D9AF /* Pods-JSONJam_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6B4CCFEEACA220F20CB02772 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-JSONJam_Example-JSONJam";
-			target = F56E033A3666A1861B10385B /* Pods-JSONJam_Example-JSONJam */;
-			targetProxy = 6526ED5E5EFEE545831119DF /* PBXContainerItemProxy */;
-		};
-		74F3A1568C03398943DBFEDB /* PBXTargetDependency */ = {
+		47FA89414D0673FB31D1B375 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JSONJam_Tests-JSONJam-JSONJam";
-			target = 8B03A898218B676A73699680 /* Pods-JSONJam_Tests-JSONJam-JSONJam */;
-			targetProxy = 254D4298E89C76F81BC49196 /* PBXContainerItemProxy */;
+			target = 457DB575B6103DEF9A7FC8FB /* Pods-JSONJam_Tests-JSONJam-JSONJam */;
+			targetProxy = B7438AC82C39AF2FDCB83DBE /* PBXContainerItemProxy */;
 		};
-		AF8D4DCE62A6963E5247DB00 /* PBXTargetDependency */ = {
+		4E8EACF6DF1B98D7427E130A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JSONJam_Tests-JSONJam";
-			target = C12064BEC406341090CFADFB /* Pods-JSONJam_Tests-JSONJam */;
-			targetProxy = D9F3B9123FCE508ABF908AE4 /* PBXContainerItemProxy */;
+			target = E7778BD5D9BB45DFBB163EFC /* Pods-JSONJam_Tests-JSONJam */;
+			targetProxy = BC4A8DA2158C35ECB2D520F6 /* PBXContainerItemProxy */;
 		};
-		E1AD4DB47ED556C38C34858D /* PBXTargetDependency */ = {
+		7B70957875E7FB7C1C30136E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JSONJam_Example-JSONJam-JSONJam";
-			target = 0F5959238E08089A4FBC5028 /* Pods-JSONJam_Example-JSONJam-JSONJam */;
-			targetProxy = ABD54F581FD45838AE5B633A /* PBXContainerItemProxy */;
+			target = 571A177F20A5B57C46372500 /* Pods-JSONJam_Example-JSONJam-JSONJam */;
+			targetProxy = A926BDEBA9FB16BB3842877B /* PBXContainerItemProxy */;
+		};
+		A2AFF434246BCA287E23E49D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JSONJam_Example-JSONJam";
+			target = D03E7AB88B78F58B434F40B1 /* Pods-JSONJam_Example-JSONJam */;
+			targetProxy = F51A72B9A31CEC71EB23EA8F /* PBXContainerItemProxy */;
+		};
+		A7DB22BA20D7921257F0B74C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JSONJam_Example-JSONHelper";
+			target = B6B33B7B354FBF640AD98AEF /* Pods-JSONJam_Example-JSONHelper */;
+			targetProxy = BB1AF36D577851DB6D8F3A80 /* PBXContainerItemProxy */;
+		};
+		A83CD652ED0205F92A66A814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JSONJam_Example-JSONHelper";
+			target = B6B33B7B354FBF640AD98AEF /* Pods-JSONJam_Example-JSONHelper */;
+			targetProxy = 65AF67051A7145FFE0B2E4F7 /* PBXContainerItemProxy */;
+		};
+		E59901A6A98610A34F365F0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JSONJam_Tests-JSONHelper";
+			target = F295C3218FF19B459321831E /* Pods-JSONJam_Tests-JSONHelper */;
+			targetProxy = F6D65DCE1D1B0A82AE0ABCB9 /* PBXContainerItemProxy */;
+		};
+		FA6A76B7BE49597FEF519210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JSONJam_Tests-JSONHelper";
+			target = F295C3218FF19B459321831E /* Pods-JSONJam_Tests-JSONHelper */;
+			targetProxy = C0C840FD51180339C5CEC73A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		084C0A460E1DA2B641DC433A /* Debug */ = {
+		08DAD3865401E09475AAC54B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 470E8D3A2D895278B7F3BDDD /* Pods-JSONJam_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Tests/Pods-JSONJam_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_JSONJam_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		11C100D3923040E3E0A207E5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8F2CBCA74BCF3AFF3CB4EBA /* Pods-JSONJam_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Example/Pods-JSONJam_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_JSONJam_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1520D540B9E33D056FD1684B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71BCF00BCAA67C54AD87E57F /* Pods-JSONJam_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Example/Pods-JSONJam_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_JSONJam_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2E7BD5D8531C4F1C31C575CE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AFBF030C51DD9059EA5763E /* Pods-JSONJam_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Tests/Pods-JSONJam_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_JSONJam_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		42CD4A539CB30C1BCA4BF79C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54E611DEBAD179DC0D97101A /* Pods-JSONJam_Tests-JSONJam-Private.xcconfig */;
+			baseConfigurationReference = A3278DFDD45964FE8F4FF8D5 /* Pods-JSONJam_Tests-JSONJam-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -731,11 +834,95 @@
 			};
 			name = Debug;
 		};
-		49B00BC79768A9707149EB8C /* Release */ = {
+		1815CA7EA8B4C6FE50AA9EF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54E611DEBAD179DC0D97101A /* Pods-JSONJam_Tests-JSONJam-Private.xcconfig */;
+			baseConfigurationReference = 0185C330D728BFF5B2E02099 /* Pods-JSONJam_Example-JSONHelper-Private.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JSONJam_Tests";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JSONJam_Example-JSONHelper/Pods-JSONJam_Example-JSONHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Example-JSONHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Example-JSONHelper/Pods-JSONJam_Example-JSONHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JSONHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BB67FB106DE134E2D50B98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F8C1EC6A196591E3E0F80B /* Pods-JSONJam_Tests-JSONHelper-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JSONJam_Tests-JSONHelper/Pods-JSONJam_Tests-JSONHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Tests-JSONHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Tests-JSONHelper/Pods-JSONJam_Tests-JSONHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JSONHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27F45FD9A8B1E69A3D6F133F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301A6A50141BAE574EB2486D /* Pods-JSONJam_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Tests/Pods-JSONJam_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JSONJam_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E89B5C2EE0B020A4C839716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088F71396FEE3B303945B75A /* Pods-JSONJam_Example-JSONJam-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JSONJam_Example";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = JSONJam;
 				SDKROOT = iphoneos;
@@ -744,9 +931,9 @@
 			};
 			name = Release;
 		};
-		75383D84E15A87C2B2AC2923 /* Debug */ = {
+		43798B21BD7E25A03BC9BA66 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C13336FD40BE38C29C72B7E5 /* Pods-JSONJam_Example-JSONJam-Private.xcconfig */;
+			baseConfigurationReference = 088F71396FEE3B303945B75A /* Pods-JSONJam_Example-JSONJam-Private.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JSONJam_Example";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -757,102 +944,7 @@
 			};
 			name = Debug;
 		};
-		77B933C96A20F1711B56EC6C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54E611DEBAD179DC0D97101A /* Pods-JSONJam_Tests-JSONJam-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JSONJam_Tests-JSONJam/Pods-JSONJam_Tests-JSONJam-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Tests-JSONJam/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Tests-JSONJam/Pods-JSONJam_Tests-JSONJam.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = JSONJam;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		828A8B65D51FE061CE6641CD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C13336FD40BE38C29C72B7E5 /* Pods-JSONJam_Example-JSONJam-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JSONJam_Example-JSONJam/Pods-JSONJam_Example-JSONJam-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Example-JSONJam/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Example-JSONJam/Pods-JSONJam_Example-JSONJam.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = JSONJam;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8ED19E8EBFB94A446D3A2102 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C13336FD40BE38C29C72B7E5 /* Pods-JSONJam_Example-JSONJam-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JSONJam_Example-JSONJam/Pods-JSONJam_Example-JSONJam-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Example-JSONJam/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Example-JSONJam/Pods-JSONJam_Example-JSONJam.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = JSONJam;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9432A67AE7B2A65385BF9F4E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54E611DEBAD179DC0D97101A /* Pods-JSONJam_Tests-JSONJam-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JSONJam_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = JSONJam;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		CE541E1025182FF4E9A81D76 /* Debug */ = {
+		66E3AEB146F8A40967741A65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -891,7 +983,7 @@
 			};
 			name = Debug;
 		};
-		DE7976006763B0AFB88168A5 /* Release */ = {
+		6C577A1629058A465A25EF31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -925,11 +1017,11 @@
 			};
 			name = Release;
 		};
-		E344472C5A708CAF74572D29 /* Release */ = {
+		7250F98B2ABB24710A83F996 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C13336FD40BE38C29C72B7E5 /* Pods-JSONJam_Example-JSONJam-Private.xcconfig */;
+			baseConfigurationReference = A3278DFDD45964FE8F4FF8D5 /* Pods-JSONJam_Tests-JSONJam-Private.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JSONJam_Example";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JSONJam_Tests";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = JSONJam;
 				SDKROOT = iphoneos;
@@ -938,73 +1030,330 @@
 			};
 			name = Release;
 		};
+		74803FFA456ECD3BEDE62A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F63AD94F2B0DA91EB97ED2 /* Pods-JSONJam_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Example/Pods-JSONJam_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JSONJam_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CB1F3ED6F6D1F27F951074E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFEE60798DA8F752E22B8DE /* Pods-JSONJam_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Example/Pods-JSONJam_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JSONJam_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8578FF687F52399A5729BB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F8C1EC6A196591E3E0F80B /* Pods-JSONJam_Tests-JSONHelper-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JSONJam_Tests-JSONHelper/Pods-JSONJam_Tests-JSONHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Tests-JSONHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Tests-JSONHelper/Pods-JSONJam_Tests-JSONHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JSONHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		870589D6A5AE9C0D41AE970C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3278DFDD45964FE8F4FF8D5 /* Pods-JSONJam_Tests-JSONJam-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JSONJam_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JSONJam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		94811F908AE1C5C80EF7D53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088F71396FEE3B303945B75A /* Pods-JSONJam_Example-JSONJam-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JSONJam_Example-JSONJam/Pods-JSONJam_Example-JSONJam-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Example-JSONJam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Example-JSONJam/Pods-JSONJam_Example-JSONJam.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JSONJam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BFCA5D5C6F78477398B34CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41F392BCF91A1560081C3BB /* Pods-JSONJam_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Tests/Pods-JSONJam_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JSONJam_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1A49CBB6EF48F1D0667699E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088F71396FEE3B303945B75A /* Pods-JSONJam_Example-JSONJam-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JSONJam_Example-JSONJam/Pods-JSONJam_Example-JSONJam-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Example-JSONJam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Example-JSONJam/Pods-JSONJam_Example-JSONJam.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JSONJam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE51A311A8D0590E7488E7BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3278DFDD45964FE8F4FF8D5 /* Pods-JSONJam_Tests-JSONJam-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JSONJam_Tests-JSONJam/Pods-JSONJam_Tests-JSONJam-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Tests-JSONJam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Tests-JSONJam/Pods-JSONJam_Tests-JSONJam.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JSONJam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8E9DF6CBAC57467582FAE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0185C330D728BFF5B2E02099 /* Pods-JSONJam_Example-JSONHelper-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JSONJam_Example-JSONHelper/Pods-JSONJam_Example-JSONHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSONJam_Example-JSONHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JSONJam_Example-JSONHelper/Pods-JSONJam_Example-JSONHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JSONHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B68D5A4D9BE45BC1DBBF1F6 /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Tests" */ = {
+		1F9FA864CD53F222A3AB573A /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Tests-JSONJam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				084C0A460E1DA2B641DC433A /* Debug */,
-				2E7BD5D8531C4F1C31C575CE /* Release */,
+				08DAD3865401E09475AAC54B /* Debug */,
+				CE51A311A8D0590E7488E7BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39D902DD10D600C437BA495F /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Example" */ = {
+		2B73E5B035BB1739811296C6 /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11C100D3923040E3E0A207E5 /* Debug */,
-				1520D540B9E33D056FD1684B /* Release */,
+				74803FFA456ECD3BEDE62A83 /* Debug */,
+				7CB1F3ED6F6D1F27F951074E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B21D73DE7D633AF746C63F4 /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Example-JSONJam" */ = {
+		2BFF35464A2B890CD35DA57F /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Tests-JSONJam-JSONJam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8ED19E8EBFB94A446D3A2102 /* Debug */,
-				828A8B65D51FE061CE6641CD /* Release */,
+				870589D6A5AE9C0D41AE970C /* Debug */,
+				7250F98B2ABB24710A83F996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D98D7687DDB3915305E50EB /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Tests-JSONJam-JSONJam" */ = {
+		3441561DA9B22FDB91463F50 /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9432A67AE7B2A65385BF9F4E /* Debug */,
-				49B00BC79768A9707149EB8C /* Release */,
+				BFCA5D5C6F78477398B34CCE /* Debug */,
+				27F45FD9A8B1E69A3D6F133F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D61E3C6255509FBFABA30A97 /* Build configuration list for PBXProject "Pods" */ = {
+		39C6C5F551C257B4459306D3 /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Tests-JSONHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE541E1025182FF4E9A81D76 /* Debug */,
-				DE7976006763B0AFB88168A5 /* Release */,
+				1BB67FB106DE134E2D50B98C /* Debug */,
+				8578FF687F52399A5729BB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFA0BA83818389C324D5D0F6 /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Example-JSONJam-JSONJam" */ = {
+		4CE35426C61AE461F6A4C052 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75383D84E15A87C2B2AC2923 /* Debug */,
-				E344472C5A708CAF74572D29 /* Release */,
+				66E3AEB146F8A40967741A65 /* Debug */,
+				6C577A1629058A465A25EF31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F9C414DCF69D78087AB807DF /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Tests-JSONJam" */ = {
+		52A091689A99F80A2885F922 /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Example-JSONJam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42CD4A539CB30C1BCA4BF79C /* Debug */,
-				77B933C96A20F1711B56EC6C /* Release */,
+				94811F908AE1C5C80EF7D53A /* Debug */,
+				C1A49CBB6EF48F1D0667699E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E9EC1C35800E195E8002FCB /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Example-JSONJam-JSONJam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43798B21BD7E25A03BC9BA66 /* Debug */,
+				2E89B5C2EE0B020A4C839716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C828565C3BE7D2EA5339B530 /* Build configuration list for PBXNativeTarget "Pods-JSONJam_Example-JSONHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E9DF6CBAC57467582FAE99 /* Debug */,
+				1815CA7EA8B4C6FE50AA9EF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5734AD5668735477D5990A5A /* Project object */;
+	rootObject = CD0E790FCEFB769CDB5B00DD /* Project object */;
 }
