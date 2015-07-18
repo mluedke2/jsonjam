@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'JSONJam_Example', :exclusive => true do
+  pod "JSONJam", :path => "../"
+end
+
+target 'JSONJam_Tests', :exclusive => true do
+  pod "JSONJam", :path => "../"
+
+  
+end
