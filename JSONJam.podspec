@@ -15,6 +15,4 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'JSONJam' => ['Pod/Assets/*.png']
   }
-
-  s.dependency 'JSONHelper', '~> 1.6.0'
 end

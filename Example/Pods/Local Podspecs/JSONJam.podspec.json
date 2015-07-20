@@ -20,10 +20,5 @@
     "JSONJam": [
       "Pod/Assets/*.png"
     ]
-  },
-  "dependencies": {
-    "JSONHelper": [
-      "~> 1.6.0"
-    ]
   }
 }

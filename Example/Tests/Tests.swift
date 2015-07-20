@@ -1,6 +1,5 @@
 import UIKit
 import XCTest
-import JSONHelper
 import JSONJam
 import JSONJam_Example
 

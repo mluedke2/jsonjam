@@ -1,5 +1,3 @@
-import JSONHelper
-
 public class JSONJam: Deserializable {
     
     private var jsonData: JSONDictionary?

@@ -36,10 +36,10 @@ Example:
 import JSONJam
 
 public class User: JSONJam {
-    
+
     public var name: String?
     public var favoriteNumber: Int?
-    
+
     override public func propertyMap() {
         map("name", string: &name)
         map("favorite_number", int: &favoriteNumber)
@@ -115,12 +115,12 @@ Supply a date format string along with your `NSDate` (or arrays thereof), and it
 import JSONJam
 
 class MyObject: JSONJam {
-    
+
     var dateFormat = "yyyy-MM-dd HH:mm:ss"
-    
+
     var creationDate: NSDate?
     var transactionDates: [NSDate]?
-    
+
     override func propertyMap() {
         map("creation_date", date: &creationDate, dateFormat: dateFormat)
         map("transaction_dates", dateArray: &transactionDates, dateFormat: dateFormat)
@@ -138,17 +138,17 @@ This is useful in the case of enums, like in `ShoeSize` in the Example Project:
 import JSONJam
 
 class ShoeSize: JSONJam {
-    
+
     enum SizeSystem: String {
         case UnitedStates = "US"
         case Europe = "EUR"
         case UnitedKingdom = "UK"
         case Australia = "AUS"
     }
-    
+
     var size: Int?
     var sizeSystem: SizeSystem?
-    
+
     override func propertyMap() {
         map("size", int: &size)
         map("system",
