@@ -11,13 +11,14 @@ Depends on [JSONHelper](https://github.com/isair/JSONHelper) and designed for us
 
 ## Installation
 
-JSONJam is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+To integrate JSONJam into your Xcode project using [CocoaPods](http://cocoapods.org), specify it in your `Podfile`:
 
 ```ruby
+source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
-pod "JSONJam", :git => 'https://github.com/mluedke2/jsonjam.git'
+
+pod "JSONJam", '~> 1.0.0'
 ```
 
 ## Usage
